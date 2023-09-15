@@ -1,0 +1,5 @@
+@font-face {
+  font-family: StenoWord;
+  src: url(StenoWord-Regular.woff2) format(woff2),
+    url(StenoWord-Regular.ttf) format(truetype);
+}

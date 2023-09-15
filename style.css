@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Inter, "M PLUS Rounded 1c", "Noto Sans JP", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  line-height: 1.5em;
+}
+
+.warning {
+  margin-top: 30px;
+  background-color: #f29696;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 35em;
+  line-height: 1.5em;
+}
+
+.note {
+  margin-top: 30px;
+  background-color: #fff8c7;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 35em;
+  line-height: 1.5em;
+}
+
+section {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+section h1 {
+  margin-bottom: 0;
+}
+
+section h2 {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+section h3 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  margin-top: 1.5em;
+}
+
+section div[lang="ja"],
+section div[lang="en"] {
+  display: inline-block;
+  text-align: left;
+  width: 40em;
+  padding: 10px 40px;
+  vertical-align: top;
+}
+
+section p {
+  text-indent: 2em;
+  line-height: 1.75em;
+}
+
+section footer {
+  text-align: left;
+  padding-left: 30%;
+  line-height: 1.75em;
+}
+
+.principles {
+  list-style-type: upper-alpha;
+}
+
+li {
+  margin: 2em auto;
+}
+
+.principles p {
+  text-indent: 0;
+}
+
+img {
+  display: block;
+  text-align: center;
+}
+
+.steno {
+  width: 34em;
+  margin: 1em auto;
+  text-align: left !important;
+}
+
+rt {
+  user-select: none;
+}
+
+.line {
+  font-family: "Azeret Mono", "JetBrains Mono", "Courier New", Courier,
+    monospace;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  white-space: pre;
+  margin-right: 1em;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 6px 12px;
+}
+
+.steno .line.deleted {
+  color: #ccc;
+}
+
+.gojuon {
+  margin: 1em auto;
+  border-spacing: 1em 0;
+}
+.gojuon td,
+.gojuon .line {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+:first-child > .line {
+  border-top: 1px solid black;
+  padding-top: 4px;
+}
+:last-child > .line {
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+.gojuon tr td:nth-child(even) {
+  text-align: left;
+  width: fit-content;
+  padding-right: 1.5em;
+}
+.gojuon .exception {
+  color: red;
+}
+.gojuon .reference {
+  color: #cccccc;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+  color: red;
+}
+
+th {
+  font-family: StenoWord;
+  font-weight: normal;
+  font-size: 5rem;
+  line-height: 3rem;
+  transform: translateY(-1.75rem);
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+}
+
+td {
+  border: 1px solid black;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.brief {
+  margin-top: 2em;
+}
+
+table.brief td {
+  border: none;
+}
+
+table.brief th + td {
+  padding-left: 4em;
+}
+
+code {
+  font-family: StenoWord;
+  font-size: 3rem;
+  line-height: 1rem;
+}
+
+section > p,
+section > table {
+  max-width: calc(70em + 30px);
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+}
+
+blockquote {
+  line-height: 1.5em;
+  text-indent: 2em;
+}
+
+table.romaji td {
+  width: 4em;
+  font-size: 1.2em;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+}
+
+table.romaji i {
+  display: block;
+  font-weight: normal;
+}
