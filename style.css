@@ -158,7 +158,7 @@ th {
   font-family: StenoWord;
   font-weight: normal;
   font-size: 5rem;
-  line-height: 3rem;
+  line-height: 3.5rem;
   padding-left: 0.1em;
   padding-right: 0.1em;
 }
@@ -178,7 +178,7 @@ table.brief td {
 }
 
 table.brief th + td {
-  padding-left: 4em;
+  padding-left: 3em;
 }
 
 code {
@@ -211,17 +211,4 @@ li {
 blockquote {
   line-height: 1.5em;
   text-indent: 2em;
-}
-
-table.romaji td {
-  width: 4em;
-  font-size: 1.2em;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-weight: bold;
-}
-
-table.romaji i {
-  display: block;
-  font-weight: normal;
 }
