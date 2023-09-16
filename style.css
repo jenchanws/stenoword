@@ -208,7 +208,15 @@ li {
   line-height: 1.5em;
 }
 
+li > p:first-child {
+  text-indent: 0;
+}
+
 blockquote {
   line-height: 1.5em;
   text-indent: 2em;
+}
+
+.ex {
+  text-indent: 0;
 }
